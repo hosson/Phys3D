@@ -1,0 +1,39 @@
+﻿2014/07/09 21:25:42 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\ho\Documents\Visual Studio 2013\Projects\Phys3D\Phys3D\Phys3D.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Element.cpp
+         Element.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ho\Documents\Visual Studio 2013\Projects\Phys3D\Debug\Phys3D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ho\Documents\Visual Studio 2013\Projects\Phys3D\Debug\Phys3D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ho\Documents\Visual Studio 2013\Projects\Phys3D\Debug\Phys3D.lib" /MACHINE:X86 Debug\App.obj
+         Debug\AppCore.obj
+         Debug\Element.obj
+         Debug\D3D11.obj
+         Debug\Error.obj
+         Debug\FrameControl.obj
+         Debug\MessageLoop.obj
+         Debug\MultiThread.obj
+         Debug\Matrix.obj
+         Debug\Quaternion.obj
+         Debug\vector.obj
+         Debug\OrderChecker.obj
+         Debug\Profiler.obj
+         Debug\Random.obj
+         Debug\Shader.obj
+         Debug\tstring.obj
+         Debug\Window.obj
+         Debug\Body.obj
+         Debug\BodyCreator.obj
+         Debug\Collision.obj
+         Debug\Solver.obj
+         Debug\Mesh.obj
+         Debug\Phys3D.obj
+         Debug\World.obj
+         Debug\Shader2DTexture.obj
+         Debug\ShaderSimple.obj
+         Debug\WinMain.obj
+         Phys3D.vcxproj -> C:\Users\ho\Documents\Visual Studio 2013\Projects\Phys3D\Debug\Phys3D.exe
+     1>プロジェクト "C:\Users\ho\Documents\Visual Studio 2013\Projects\Phys3D\Phys3D\Phys3D.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.86

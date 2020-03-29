@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\hoLib">
+      <UniqueIdentifier>{a858cb7d-57d5-4015-b3c8-d384e2a4f26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\hoLib">
+      <UniqueIdentifier>{1d122112-48bc-4a36-840c-292842f94615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\hoLib\num">
+      <UniqueIdentifier>{23cba2ec-b82a-465e-98c3-679ea6b3daa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\hoLib\num">
+      <UniqueIdentifier>{67c94fb5-63a8-474c-8300-c03db00af8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Phys3D">
+      <UniqueIdentifier>{fe489f33-b082-42c8-8c15-7301b2a94690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Phys3D">
+      <UniqueIdentifier>{3bcd2efd-2c4b-4308-b50b-8cc56693ffb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCore.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader2DTexture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSimple.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\D3D11.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\Error.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\FrameControl.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\MessageLoop.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\MultiThread.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\OrderChecker.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\Profiler.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\Shader.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\tstring.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\Window.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\num\vector.cpp">
+      <Filter>ソース ファイル\hoLib\num</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys3D\Phys3D.cpp">
+      <Filter>ソース ファイル\Phys3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys3D\World.cpp">
+      <Filter>ソース ファイル\Phys3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys3D\Collision.cpp">
+      <Filter>ソース ファイル\Phys3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys3D\Body.cpp">
+      <Filter>ソース ファイル\Phys3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys3D\BodyCreator.cpp">
+      <Filter>ソース ファイル\Phys3D</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\num\Quaternion.cpp">
+      <Filter>ソース ファイル\hoLib\num</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\num\Matrix.cpp">
+      <Filter>ソース ファイル\hoLib\num</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys3D\Mesh.cpp">
+      <Filter>ソース ファイル\Phys3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys3D\Solver.cpp">
+      <Filter>ソース ファイル\Phys3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="hoLib\Random.cpp">
+      <Filter>ソース ファイル\hoLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCore.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader2DTexture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSimple.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\D3D11.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\Error.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\FrameControl.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\MessageLoop.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\MultiThread.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\OrderChecker.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\Profiler.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\Shader.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\tstring.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\Window.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\num\constant.h">
+      <Filter>ヘッダー ファイル\hoLib\num</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\num\numerical.hpp">
+      <Filter>ヘッダー ファイル\hoLib\num</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\num\vector.h">
+      <Filter>ヘッダー ファイル\hoLib\num</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\Phys3D.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\World.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\Collision.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\Body.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\BodyCreator.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\num\Quaternion.h">
+      <Filter>ヘッダー ファイル\hoLib\num</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\num\Matrix.h">
+      <Filter>ヘッダー ファイル\hoLib\num</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\Mesh.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\MassPoint.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\Collision_base.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\Solver.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys3D\Contact.h">
+      <Filter>ヘッダー ファイル\Phys3D</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\sp_init.hpp">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSimple_base.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="hoLib\Random.h">
+      <Filter>ヘッダー ファイル\hoLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="2DTexture.fx">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Simple.fx">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

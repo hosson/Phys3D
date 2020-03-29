@@ -1,0 +1,81 @@
+﻿  App.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\App.h(4,10): fatal error C1083: include ファイルを開けません。'boost\shared_ptr.hpp':No such file or directory
+  AppCore.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\AppCore.h(6,10): fatal error C1083: include ファイルを開けません。'boost\shared_ptr.hpp':No such file or directory
+  Element.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\AppCore.h(6,10): fatal error C1083: include ファイルを開けません。'boost\shared_ptr.hpp':No such file or directory
+  D3D11.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\D3D11.h(13,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  Error.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\Error.h(6,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  FrameControl.cpp
+  MessageLoop.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\MessageLoop.cpp(17,6): error C2248: 'std::_Func_class<_Ret>::_Empty': protected メンバー (クラス 'std::_Func_class<_Ret>' で宣言されている) にアクセスできません。
+          with
+          [
+              _Ret=bool
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(981): message : 'std::_Func_class<_Ret>::_Empty' の宣言を確認してください
+          with
+          [
+              _Ret=bool
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(1110): message : 'std::_Func_class<_Ret>' の宣言を確認してください
+          with
+          [
+              _Ret=bool
+          ]
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\MessageLoop.cpp(36,9): error C2248: 'std::_Func_class<_Ret>::_Empty': protected メンバー (クラス 'std::_Func_class<_Ret>' で宣言されている) にアクセスできません。
+          with
+          [
+              _Ret=bool
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(981): message : 'std::_Func_class<_Ret>::_Empty' の宣言を確認してください
+          with
+          [
+              _Ret=bool
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(1110): message : 'std::_Func_class<_Ret>' の宣言を確認してください
+          with
+          [
+              _Ret=bool
+          ]
+  MultiThread.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\Error.h(6,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  Matrix.cpp
+  Quaternion.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\Error.h(6,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  vector.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\Error.h(6,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  OrderChecker.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\OrderChecker.h(4,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  Profiler.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\Error.h(6,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  Random.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\Error.h(6,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  Shader.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\D3D11.h(13,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  tstring.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\tstring.cpp(49,13): error C2065: 'LC_ALL': 定義されていない識別子です。
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\tstring.cpp(49,3): error C3861: 'setlocale': 識別子が見つかりませんでした
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\tstring.cpp(72,13): error C2065: 'LC_ALL': 定義されていない識別子です。
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\tstring.cpp(72,3): error C3861: 'setlocale': 識別子が見つかりませんでした
+  Window.cpp
+  Body.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\Phys3D\Mesh.h(8,10): fatal error C1083: include ファイルを開けません。'boost/optional.hpp':No such file or directory
+  BodyCreator.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\Error.h(6,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  Collision.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\Phys3D\Mesh.h(8,10): fatal error C1083: include ファイルを開けません。'boost/optional.hpp':No such file or directory
+  コンパイル中...
+  Solver.cpp
+  Mesh.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\Phys3D\Mesh.h(8,10): fatal error C1083: include ファイルを開けません。'boost/optional.hpp':No such file or directory
+  Phys3D.cpp
+  World.cpp
+  Shader2DTexture.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\D3D11.h(13,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  ShaderSimple.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\hoLib\D3D11.h(13,10): fatal error C1083: include ファイルを開けません。'boost/shared_ptr.hpp':No such file or directory
+  WinMain.cpp
+C:\Users\h2\Documents\Visual Studio Old\Visual Studio 2013\Projects\Phys3D\Phys3D\WinMain.cpp(2,10): fatal error C1083: include ファイルを開けません。'boost\shared_ptr.hpp':No such file or directory
