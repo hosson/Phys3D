@@ -5,3 +5,6 @@
 Phys3D（本体ソースコード）  
 ┣ hoLib（Visual C++用の自作ライブラリ群）  
 ┗ Phys3D（剛体力学エンジン部分）  
+
+動画
+https://www.youtube.com/watch?v=SRWFguSLS_s
